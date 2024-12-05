@@ -1,0 +1,14 @@
+.nav{
+  background-color: #06214E;
+  margin: 0;
+  padding: 10px 20px;
+  color: white;
+}
+
+.active {
+  background-color: #42AFF0;
+}
+
+.nav-item:hover{
+  background-color: #42AFF0;
+}

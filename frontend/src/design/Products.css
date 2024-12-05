@@ -1,0 +1,46 @@
+.products{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.product-ctn{
+  background-color: white;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-heading{
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.products-ctn{
+  display: grid;
+  grid-template-columns: 25% 70%;
+  grid-gap: 5%;
+  width: 90%;
+  margin: 2rem 0;
+}
+
+.filters{
+  border: 5px solid black;
+  padding: 20px;
+  height: 25rem;
+}
+
+.product-cards{
+  border: 5px solid black;
+  padding: 2rem;
+}
+
+.product-card-btn-grp{
+  display: flex;
+  justify-content: space-around;  
+}

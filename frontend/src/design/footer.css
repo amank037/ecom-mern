@@ -1,0 +1,9 @@
+.icons{
+  justify-content: center;
+}
+
+.footer-ctn{
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+}
