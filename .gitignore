@@ -1,0 +1,35 @@
+# Ignore node_modules (both frontend and backend)
+node_modules/
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore build folders (if any)
+frontend/build/
+backend/build/
+dist/
+
+# Ignore logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore temporary files
+*.tmp
+*.temp

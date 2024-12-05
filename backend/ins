@@ -1,0 +1,102 @@
+1. make folder of project
+2. make two folder for frontend and backend and open folder backend in vscode
+3. initialise node using npm init
+4. install express and mongoose -> npm i express mongoose, create a file server.js
+5. start server using express and test if server is runnning using nodemon server.js
+6. make folder and file inside that folder database -> mongo.js
+7. write a function to connect to local database
+8. call that the function in server .js
+9. test the code
+10. make folder called model.js
+11. make three files -> product.model.js, user.model.js, order.model.js
+12. create product model like present in drive link in file product.model.js
+13. try to remember discussion on user.model.js
+14. create model of user similar to product model with discussed keys in user.model.js
+15. install validator using npm i validator
+16. create or update user model like shown in screen
+17. update product table be adding key called created by
+18. As discussed create schema for order model by adding all keys and their respected properties
+19. update order model as per my code
+20. create file structure as -> backend -> modules -> product,users,order-> _____.routes.js, ____.controller.js, ____.constant.js
+21. create routers like mine one in product.router.js
+22. crate routes like min one in user.routes.js
+23. think and create routes in order.routes.js
+24. install body-parser - npm i body-parser
+25. update timestamps spelling in every model
+26. comment all the routes in all modules
+27. uncomment route of create new product
+28. write a function of create new product in product controller
+29. export that function in product controller
+30. import that function in product routes
+31. update your server.js to add bodyparser middlreware
+32. update your server.js to add route for product routes 
+33. start the server
+34. open postman and test the api
+35. open compass and check is data inserted in database
+
+17 july
+
+36. uncomment api to get all products in product routes
+37. create a function with pagination , filters like category, price range and rating get all product from the database
+38. create new products to test the above filters and pagination
+39. test the code
+40. write function to get product detail using getPRoductDetail function
+41. uncomment the route to fetch the product detail
+42. test the code in postman by sending the product id in url itself
+43. create a function to edit the product details like name, description, price and stock
+44. uncomment the url in product route to test the api by sending data in body
+45. test the api
+46. create a function to delete a product in which first find the product like in get product detail function then run the query to delete the product
+47. uncomment the route in product routes
+48. test the code
+
+18 july
+49. uncomment route to create ne user
+50. write a function to create a user
+51. write a route in server.js to navigate to user routes
+52. test the api is it working
+53. install bycrptjs using npm i bycryptjs
+54. add a pre hook in user model
+55. test the api gain 
+56. install jsonwebtoken and cookie-parser
+57. create folder called authentication and file called auth.js
+58. in auth.js write a function to genrate token
+59. call the function in controller and create a copy of user by stringify and parse pass is as param to genratoken function
+60. update server.js to include cookie-parser()
+61. add token as cookie in response
+62. test the api using postmant and check is cookie created
+63. in case not then add local ip 127.0.0.1 in domain allowlist of cookies in postman
+
+19 july
+64. write a function to login as user in user controller
+65. uncomment the route of login in user routes
+66. test the api
+67. write a function to logout as user in user controller
+68. uncomment the route of logout the user in user routes
+69. test the api
+70. write a function to authenticate the user and decoded data to the req.user
+71. write a function to aothroize only the admin in auth
+72. update product model and made createby required true from false
+73. update route to authenticate and authorize user in case of create new product
+74. update role of any user in database to admin
+75. test the api with user having role user then same with user having role admin
+76. read the api of the get all products 
+77. try to write the similar api to fetch all users add athunetiction and authorization and test the api
+
+20 july
+78. update the function for getting all users 
+79. update route with auth functions
+80. test the api
+81. create api to fetch profile and update the route
+82. test the api
+83. create a function to resetPassword
+84. update the route
+85. test the api
+86. create a api to getUserDetail api
+88. update the route
+89. test the api
+90. create a api to deleteUsers
+91. update the route
+92. test the api
+
+
